@@ -8,4 +8,5 @@
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": ["harness-inc.harness-aida-code-assistant-vsx"]
     }
+  } 
 }
