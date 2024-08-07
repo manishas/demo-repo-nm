@@ -2,4 +2,10 @@
   "name": "Node.js",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22-bookworm",
   "postCreateCommand": "npm install"
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": ["harness-inc.harness-aida-code-assistant-vsx"]
+    }
 }
